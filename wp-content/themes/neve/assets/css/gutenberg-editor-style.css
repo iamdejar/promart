@@ -69,6 +69,11 @@
   border-color: var(--secondarybtnhovercolor);
 }
 
+.editor-styles-wrapper {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .editor-styles-wrapper, .editor-styles-wrapper > * {
   background-color: var(--nv-site-bg);
 }
@@ -406,6 +411,10 @@ body .editor-styles-wrapper p {
 .editor-styles-wrapper .wp-block-code {
   border: 0;
   border-radius: 0;
+}
+
+.editor-styles-wrapper .tag-cloud-link {
+  text-decoration: none;
 }
 
 .editor-styles-wrapper .wp-block .wp-block-separator {

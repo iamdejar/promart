@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Neve package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-09-23 08:31:42+0000\n"
+"PO-Revision-Date: 2022-07-10 08:29:45+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,6 +15,98 @@ msgstr ""
 #, gp-priority: high
 msgid "Neve is a super fast, easily customizable, multi-purpose theme. It’s perfect for blogs, small business, startups, agencies, firms, e-commerce shops (WooCommerce storefront) as well as personal portfolio sites and most types of projects. A fully AMP optimized and responsive theme, Neve will load in mere seconds and adapt perfectly on any viewing device. While it is lightweight and has a minimalist design, the theme is highly extendable, it has a highly SEO optimized code, resulting in top rankings in Google search results. Neve works perfectly with Gutenberg and the most popular page builders (Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi). Neve is also WooCommerce ready, responsive, RTL & translation ready. Look no further. Neve is the perfect theme for you!"
 msgstr "Neve – сверхбыстрая, легко настраиваемая, универсальная тема. Идеально подходит для блогов, малого бизнеса, стартапов, агентств, фирм, онлайн-магазинов (WooCommerce storefront), а также персональных портфолио и разнообразных проектов. Neve – полностью оптимизированная и адаптивная тема с поддержкой AMP, которая загружается за считанные секунды и идеально отображается на любом устройстве. Несмотря на легкость и минималистичный дизайн, тема отличается хорошей расширяемостью и кодом, отлично оптимизированным для SEO, что обеспечивает наилучшее ранжирование в результатах поиска Google. Neve отлично работает с Gutenberg и самыми популярными конструкторами сайтов (Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi). Эта адаптивная тема также поддерживает WooCommerce, RTL и перевод сайта на другие языки. Вы нашли то, что нужно. Neve – идеальная для вас тема!"
+
+#. translators: s - Discount Code
+#: inc/admin/dashboard/main.php:312
+msgid "From 3.3.0 we decided to remove the copyright component from the free version. You can continue using it if you rollback to 3.2.x or you can upgrade to pro, using a one time 50%% discount: %s"
+msgstr "Начиная с версии 3.3.0 мы убрали компонент копирайта из бесплатной версии. Вы можете продолжить использовать его, откатившись до версии 3.2.x или обновившись до pro, используя разовую 50%% скидку: %s"
+
+#: inc/customizer/options/layout_blog.php:469
+#: inc/customizer/options/layout_single_post.php:272
+msgid "Hide on mobile"
+msgstr "Скрыть на мобильных устройствах"
+
+#: header-footer-grid/Core/Magic_Tags.php:672
+msgid "Current Page Title"
+msgstr "Заголовок текущей страницы"
+
+#: inc/customizer/options/layout_blog.php:300
+msgid "Sticky Post"
+msgstr "Закреплённая запись"
+
+#: inc/customizer/options/layout_blog.php:299
+msgid "Latest Post"
+msgstr "Последняя запись"
+
+#: inc/customizer/options/layout_blog.php:277
+msgid "Enable featured post section"
+msgstr "Включить раздел \"Избранные записи\""
+
+#: inc/customizer/options/layout_blog.php:257
+#: inc/customizer/options/layout_blog.php:294
+msgid "Featured Post"
+msgstr "Избранная запись"
+
+#: inc/compatibility/easy_digital_downloads.php:80
+msgid "Neve Theme controls base style settings of Easy Digital Downloads. Additional settings from other extensions might appear below."
+msgstr "Тема Neve управляет настройками базовых стилей Easy Digital Downloads. Дополнительные настройки других расширений могут быть доступны ниже."
+
+#: inc/compatibility/easy_digital_downloads.php:79
+msgid "Controlled by Neve"
+msgstr "Под управлением Neve"
+
+#: header-footer-grid/Core/Magic_Tags.php:710
+msgid "EDD Cart"
+msgstr "Корзина EDD"
+
+#: header-footer-grid/Core/Components/EddCartIcon.php:41
+msgid "Easy Digital Downloads Cart"
+msgstr "Корзина Easy Digital Downloads"
+
+#: header-footer-grid/Core/Components/Logo.php:362
+msgid "Use one logo for both modes"
+msgstr "Использовать один логотип в обоих режимах"
+
+#: inc/customizer/options/upsells.php:144
+#: inc/customizer/options/upsells.php:161
+msgid "Neve PRO Features"
+msgstr "Возможности Neve PRO"
+
+#: inc/customizer/options/upsells.php:114
+msgid "Stepped"
+msgstr "Ступенчатый"
+
+#: inc/customizer/options/upsells.php:109
+msgid "Vertical"
+msgstr "Вертикальный"
+
+#: inc/customizer/options/upsells.php:105
+msgid "Standard"
+msgstr "Стандартный"
+
+#: inc/customizer/options/checkout.php:85
+msgid "Checkout Style"
+msgstr "Макет страницы оформления заказа"
+
+#: inc/admin/dashboard/main.php:488
+msgid "See all PRO features"
+msgstr "Ознакомьтесь с возможностями версии PRO"
+
+#: inc/admin/dashboard/main.php:214
+msgid "Upgrade to the Pro version and get instant access to all Premium Starter Sites — including Expert Sites — and much more."
+msgstr "Обновитесь до версии Pro и получите мгновенный доступ ко всем сайтам премиум-класса для начинающих, включая сайты для экспертов, и многому другому."
+
+#: inc/core/front_end.php:431
+msgid "Upgrade to Neve Pro and unlock all components, including Wish List, Breadcrumbs, Custom Layouts and many more."
+msgstr "Обновитесь до Neve Pro и разблокируйте все компоненты, включая Список желаний, Хлебные крошки, Пользовательские макеты и многое другое."
+
+#: header-footer-grid/Core/Builder/Header.php:562
+msgid "Social Icons"
+msgstr "Значки социальных сетей"
+
+#: header-footer-grid/Core/Builder/Header.php:157
+msgid "Global Header Settings"
+msgstr "Общие настройки заголовка"
 
 #: inc/compatibility/amp.php:373
 #: inc/customizer/options/base_layout_single.php:73
@@ -1576,11 +1668,11 @@ msgstr "Вернуться в вашу панель управления"
 #. translators: %s - theme name
 #: inc/core/admin.php:409
 msgid "%s is now installed and ready to use. We've assembled some links to get you started."
-msgstr "%s теперь установлена и готова к использованию. Мы собрали несколько ссылок, чтобы вы начали."
+msgstr "%s теперь установлена и готова к использованию. Мы собрали несколько ссылок, чтобы вам было легче начать."
 
 #: inc/core/admin.php:406
 msgid "Congratulations!"
-msgstr "Поздравления!"
+msgstr "Поздравляем!"
 
 #: inc/core/admin.php:429
 msgid "or go to the theme settings"
@@ -1588,7 +1680,7 @@ msgstr "или зайдите в настройки темы"
 
 #: inc/core/admin.php:418
 msgid "Try one of our ready to use Starter Sites"
-msgstr "Попробуйте один из наших готовых к использованию Стартовых Сайтов"
+msgstr "Попробуйте один из готовых к использованию Стартовых Сайтов"
 
 #. translators: %s: number of comments
 #: inc/views/partials/post_meta.php:382
@@ -1741,7 +1833,7 @@ msgstr "Общие"
 #: header-footer-grid/Core/Components/Abstract_Component.php:880
 #: inc/customizer/options/main.php:60
 msgid "Typography"
-msgstr "Типография"
+msgstr "Типографика"
 
 #: header-footer-grid/Core/Builder/Abstract_Builder.php:642
 #: header-footer-grid/Core/Builder/Header.php:57
@@ -2066,7 +2158,7 @@ msgstr "Документация"
 #. translators: %s - Theme name
 #: inc/admin/dashboard/main.php:213 inc/core/admin.php:442
 msgid "%s now comes with a sites library with various designs to pick from. Visit our collection of demos that are constantly being added."
-msgstr "В %s теперь есть библиотека сайтов с различными дизайнами. Посетите нашу коллекцию демонстраций, которые постоянно добавляются."
+msgstr "В %s теперь есть библиотека сайтов с различными дизайнами. Посетите нашу коллекцию примеров, которые постоянно добавляются."
 
 #: header-footer-grid/Core/Components/Nav.php:194
 #: header-footer-grid/Core/Magic_Tags.php:686
